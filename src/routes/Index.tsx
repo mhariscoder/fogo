@@ -4,7 +4,7 @@ import AppStack from './AppStack';
 import AuthStack from './AuthStack';
 
 function App(): React.JSX.Element {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
 
   return (
     <NavigationContainer>

@@ -287,7 +287,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     height: 44,
     color: '#fff',
-    fontSize: 13,
+    fontSize: 11.5,
     textAlign: 'center',
     // backgroundColor: 'blue',
     marginVertical: 5,
