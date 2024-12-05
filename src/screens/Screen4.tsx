@@ -1,8 +1,9 @@
+
 import React, {useState} from 'react';
 import {View, TouchableOpacity, Text, StyleSheet, Image, ImageBackground, ScrollView} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
-const Screen3 = () => {
+const Screen4 = () => {
 
   const gifterImages = [
     require('./../source/images/gifter1.png'),
@@ -157,290 +158,277 @@ const Screen3 = () => {
                 </View>
 
                 <View style={styles.memberCardCol}>
-                <View style={styles.memberCardLeftCol}>
-                    <View style={styles.memberCard}>
-                    <Image 
-                        source={require('./../source/images/user-pic-3.png')} // Path to your image
-                        style={styles.memberCardImage}
-                    />
-                    <View>
-                        <Text style={styles.gifterTitle}>Khyzer</Text>
-                        <View style={styles.gifterContainer}>
-                        <View style={styles.gifterImages}>
-                            {gifterImages.map((src, index) => (
-                            <Image
-                                key={index}
-                                source={src}
-                                style={[
-                                styles.gifterImage,
-                                {
-                                    left: index * 10, // Dynamic horizontal offset
-                                    zIndex: index,    // Stacking order
-                                },
-                                ]}
-                            />
-                            ))}
-                            <Image 
-                            source={require('./../source/images/gifter1.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter2.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter3.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
+                    <View style={styles.memberCardLeftCol}>
+                        <View style={styles.memberCard}>
+                        <Image 
+                            source={require('./../source/images/user-pic-3.png')} // Path to your image
+                            style={styles.memberCardImage}
+                        />
+                        <View>
+                            <Text style={styles.gifterTitle}>Khyzer</Text>
+                            <View style={styles.gifterContainer}>
+                            <View style={styles.gifterImages}>
+                                {gifterImages.map((src, index) => (
+                                <Image
+                                    key={index}
+                                    source={src}
+                                    style={[
+                                    styles.gifterImage,
+                                    {
+                                        left: index * 10, // Dynamic horizontal offset
+                                        zIndex: index,    // Stacking order
+                                    },
+                                    ]}
+                                />
+                                ))}
+                                <Image 
+                                source={require('./../source/images/gifter1.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter2.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter3.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                            </View>
+                            <Text style={styles.gifterText}>Top Gifters</Text>
+                            </View>
+                            <View style={styles.gifterCoinContainer}>
+                            <Image source={require('./../source/images/openmoji-coin.png')} />
+                            <Text style={styles.gifterCoinText}>12000000</Text>
+                            </View>
                         </View>
-                        <Text style={styles.gifterText}>Top Gifters</Text>
                         </View>
-                        <View style={styles.gifterCoinContainer}>
-                        <Image source={require('./../source/images/openmoji-coin.png')} />
-                        <Text style={styles.gifterCoinText}>12000000</Text>
+                        <View style={styles.memberCard}>
+                        <Image 
+                            source={require('./../source/images/user-pic-3.png')} // Path to your image
+                            style={styles.memberCardImage}
+                        />
+                        <View>
+                            <Text style={styles.gifterTitle}>Khyzer</Text>
+                            <View style={styles.gifterContainer}>
+                            <View style={styles.gifterImages}>
+                                {gifterImages.map((src, index) => (
+                                <Image
+                                    key={index}
+                                    source={src}
+                                    style={[
+                                    styles.gifterImage,
+                                    {
+                                        left: index * 10, // Dynamic horizontal offset
+                                        zIndex: index,    // Stacking order
+                                    },
+                                    ]}
+                                />
+                                ))}
+                                <Image 
+                                source={require('./../source/images/gifter1.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter2.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter3.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                            </View>
+                            <Text style={styles.gifterText}>Top Gifters</Text>
+                            </View>
+                            <View style={styles.gifterCoinContainer}>
+                            <Image source={require('./../source/images/openmoji-coin.png')} />
+                            <Text style={styles.gifterCoinText}>12000000</Text>
+                            </View>
+                        </View>
+                        </View>
+                        <View style={styles.memberCard}>
+                        <Image 
+                            source={require('./../source/images/user-pic-3.png')} // Path to your image
+                            style={styles.memberCardImage}
+                        />
+                        <View>
+                            <Text style={styles.gifterTitle}>Khyzer</Text>
+                            <View style={styles.gifterContainer}>
+                            <View style={styles.gifterImages}>
+                                {gifterImages.map((src, index) => (
+                                <Image
+                                    key={index}
+                                    source={src}
+                                    style={[
+                                    styles.gifterImage,
+                                    {
+                                        left: index * 10, // Dynamic horizontal offset
+                                        zIndex: index,    // Stacking order
+                                    },
+                                    ]}
+                                />
+                                ))}
+                                <Image 
+                                source={require('./../source/images/gifter1.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter2.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter3.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                            </View>
+                            <Text style={styles.gifterText}>Top Gifters</Text>
+                            </View>
+                            <View style={styles.gifterCoinContainer}>
+                            <Image source={require('./../source/images/openmoji-coin.png')} />
+                            <Text style={styles.gifterCoinText}>12000000</Text>
+                            </View>
+                        </View>
                         </View>
                     </View>
-                    </View>
-                    <View style={styles.memberCard}>
-                    <Image 
-                        source={require('./../source/images/user-pic-3.png')} // Path to your image
-                        style={styles.memberCardImage}
-                    />
-                    <View>
-                        <Text style={styles.gifterTitle}>Khyzer</Text>
-                        <View style={styles.gifterContainer}>
-                        <View style={styles.gifterImages}>
-                            {gifterImages.map((src, index) => (
-                            <Image
-                                key={index}
-                                source={src}
-                                style={[
-                                styles.gifterImage,
-                                {
-                                    left: index * 10, // Dynamic horizontal offset
-                                    zIndex: index,    // Stacking order
-                                },
-                                ]}
-                            />
-                            ))}
-                            <Image 
-                            source={require('./../source/images/gifter1.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter2.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter3.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                        </View>
-                        <Text style={styles.gifterText}>Top Gifters</Text>
-                        </View>
-                        <View style={styles.gifterCoinContainer}>
-                        <Image source={require('./../source/images/openmoji-coin.png')} />
-                        <Text style={styles.gifterCoinText}>12000000</Text>
-                        </View>
-                    </View>
-                    </View>
-                    <View style={styles.memberCard}>
-                    <Image 
-                        source={require('./../source/images/user-pic-3.png')} // Path to your image
-                        style={styles.memberCardImage}
-                    />
-                    <View>
-                        <Text style={styles.gifterTitle}>Khyzer</Text>
-                        <View style={styles.gifterContainer}>
-                        <View style={styles.gifterImages}>
-                            {gifterImages.map((src, index) => (
-                            <Image
-                                key={index}
-                                source={src}
-                                style={[
-                                styles.gifterImage,
-                                {
-                                    left: index * 10, // Dynamic horizontal offset
-                                    zIndex: index,    // Stacking order
-                                },
-                                ]}
-                            />
-                            ))}
-                            <Image 
-                            source={require('./../source/images/gifter1.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter2.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter3.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                        </View>
-                        <Text style={styles.gifterText}>Top Gifters</Text>
-                        </View>
-                        <View style={styles.gifterCoinContainer}>
-                        <Image source={require('./../source/images/openmoji-coin.png')} />
-                        <Text style={styles.gifterCoinText}>12000000</Text>
-                        </View>
-                    </View>
-                    </View>
-                </View>
                 </View>
                 
                 <View style={styles.memberCardCol}>
-                <View style={styles.memberCardRightCol}>
-                    <View style={styles.memberCard}>
-                    <Image 
-                        source={require('./../source/images/user-pic-3.png')} // Path to your image
-                        style={styles.memberCardImage}
-                    />
-                    <View>
-                        <Text style={styles.gifterTitle}>Khyzer</Text>
-                        <View style={styles.gifterContainer}>
-                        <View style={styles.gifterImages}>
-                            {gifterImages.map((src, index) => (
-                            <Image
-                                key={index}
-                                source={src}
-                                style={[
-                                styles.gifterImage,
-                                {
-                                    left: index * 10, // Dynamic horizontal offset
-                                    zIndex: index,    // Stacking order
-                                },
-                                ]}
-                            />
-                            ))}
-                            <Image 
-                            source={require('./../source/images/gifter1.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter2.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter3.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
+                    <View style={styles.memberCardRightCol}>
+                        <View style={styles.memberCard}>
+                        <Image 
+                            source={require('./../source/images/user-pic-3.png')} // Path to your image
+                            style={styles.memberCardImage}
+                        />
+                        <View>
+                            <Text style={styles.gifterTitle}>Khyzer</Text>
+                            <View style={styles.gifterContainer}>
+                            <View style={styles.gifterImages}>
+                                {gifterImages.map((src, index) => (
+                                <Image
+                                    key={index}
+                                    source={src}
+                                    style={[
+                                    styles.gifterImage,
+                                    {
+                                        left: index * 10, // Dynamic horizontal offset
+                                        zIndex: index,    // Stacking order
+                                    },
+                                    ]}
+                                />
+                                ))}
+                                <Image 
+                                source={require('./../source/images/gifter1.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter2.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter3.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                            </View>
+                            <Text style={styles.gifterText}>Top Gifters</Text>
+                            </View>
+                            <View style={styles.gifterCoinContainer}>
+                            <Image source={require('./../source/images/openmoji-coin.png')} />
+                            <Text style={styles.gifterCoinText}>12000000</Text>
+                            </View>
                         </View>
-                        <Text style={styles.gifterText}>Top Gifters</Text>
                         </View>
-                        <View style={styles.gifterCoinContainer}>
-                        <Image source={require('./../source/images/openmoji-coin.png')} />
-                        <Text style={styles.gifterCoinText}>12000000</Text>
+                        <View style={styles.memberCard}>
+                        <Image 
+                            source={require('./../source/images/user-pic-3.png')} // Path to your image
+                            style={styles.memberCardImage}
+                        />
+                        <View>
+                            <Text style={styles.gifterTitle}>Khyzer</Text>
+                            <View style={styles.gifterContainer}>
+                            <View style={styles.gifterImages}>
+                                {gifterImages.map((src, index) => (
+                                <Image
+                                    key={index}
+                                    source={src}
+                                    style={[
+                                    styles.gifterImage,
+                                    {
+                                        left: index * 10, // Dynamic horizontal offset
+                                        zIndex: index,    // Stacking order
+                                    },
+                                    ]}
+                                />
+                                ))}
+                                <Image 
+                                source={require('./../source/images/gifter1.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter2.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter3.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                            </View>
+                            <Text style={styles.gifterText}>Top Gifters</Text>
+                            </View>
+                            <View style={styles.gifterCoinContainer}>
+                            <Image source={require('./../source/images/openmoji-coin.png')} />
+                            <Text style={styles.gifterCoinText}>12000000</Text>
+                            </View>
+                        </View>
+                        </View>
+                        <View style={styles.memberCard}>
+                        <Image 
+                            source={require('./../source/images/user-pic-3.png')} // Path to your image
+                            style={styles.memberCardImage}
+                        />
+                        <View>
+                            <Text style={styles.gifterTitle}>Khyzer</Text>
+                            <View style={styles.gifterContainer}>
+                            <View style={styles.gifterImages}>
+                                {gifterImages.map((src, index) => (
+                                <Image
+                                    key={index}
+                                    source={src}
+                                    style={[
+                                    styles.gifterImage,
+                                    {
+                                        left: index * 10, // Dynamic horizontal offset
+                                        zIndex: index,    // Stacking order
+                                    },
+                                    ]}
+                                />
+                                ))}
+                                <Image 
+                                source={require('./../source/images/gifter1.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter2.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                                <Image 
+                                source={require('./../source/images/gifter3.png')} // Path to your image
+                                style={styles.gifterImage}
+                                />
+                            </View>
+                            <Text style={styles.gifterText}>Top Gifters</Text>
+                            </View>
+                            <View style={styles.gifterCoinContainer}>
+                            <Image source={require('./../source/images/openmoji-coin.png')} />
+                            <Text style={styles.gifterCoinText}>12000000</Text>
+                            </View>
+                        </View>
                         </View>
                     </View>
-                    </View>
-                    <View style={styles.memberCard}>
-                    <Image 
-                        source={require('./../source/images/user-pic-3.png')} // Path to your image
-                        style={styles.memberCardImage}
-                    />
-                    <View>
-                        <Text style={styles.gifterTitle}>Khyzer</Text>
-                        <View style={styles.gifterContainer}>
-                        <View style={styles.gifterImages}>
-                            {gifterImages.map((src, index) => (
-                            <Image
-                                key={index}
-                                source={src}
-                                style={[
-                                styles.gifterImage,
-                                {
-                                    left: index * 10, // Dynamic horizontal offset
-                                    zIndex: index,    // Stacking order
-                                },
-                                ]}
-                            />
-                            ))}
-                            <Image 
-                            source={require('./../source/images/gifter1.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter2.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter3.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                        </View>
-                        <Text style={styles.gifterText}>Top Gifters</Text>
-                        </View>
-                        <View style={styles.gifterCoinContainer}>
-                        <Image source={require('./../source/images/openmoji-coin.png')} />
-                        <Text style={styles.gifterCoinText}>12000000</Text>
-                        </View>
-                    </View>
-                    </View>
-                    <View style={styles.memberCard}>
-                    <Image 
-                        source={require('./../source/images/user-pic-3.png')} // Path to your image
-                        style={styles.memberCardImage}
-                    />
-                    <View>
-                        <Text style={styles.gifterTitle}>Khyzer</Text>
-                        <View style={styles.gifterContainer}>
-                        <View style={styles.gifterImages}>
-                            {gifterImages.map((src, index) => (
-                            <Image
-                                key={index}
-                                source={src}
-                                style={[
-                                styles.gifterImage,
-                                {
-                                    left: index * 10, // Dynamic horizontal offset
-                                    zIndex: index,    // Stacking order
-                                },
-                                ]}
-                            />
-                            ))}
-                            <Image 
-                            source={require('./../source/images/gifter1.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter2.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                            <Image 
-                            source={require('./../source/images/gifter3.png')} // Path to your image
-                            style={styles.gifterImage}
-                            />
-                        </View>
-                        <Text style={styles.gifterText}>Top Gifters</Text>
-                        </View>
-                        <View style={styles.gifterCoinContainer}>
-                        <Image source={require('./../source/images/openmoji-coin.png')} />
-                        <Text style={styles.gifterCoinText}>12000000</Text>
-                        </View>
-                    </View>
-                    </View>
-                </View>
                 </View>
 
                 <View style={styles.memberCardNumbering}>
                 <Text style={styles.memberCardNumberingText}>#1</Text>
                 <Text style={styles.memberCardNumberingText}>#2</Text>
                 <Text style={styles.memberCardNumberingText}>#3</Text>
-                </View>
-            </View>
-
-            <View style={styles.seatSettingContainer}>
-                <View style={styles.seatSettingBox}>
-                    <TouchableOpacity style={styles.seatSettingGroup}>
-                        <Image style={styles.seatSettingImage} source={require('./../source/images/chair.png')} />
-                        <Text style={styles.seatSettingText}>Move Seat</Text>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={styles.seatSettingGroup}>
-                        <Image style={styles.seatSettingImage} source={require('./../source/images/microphone-slash.png')} />
-                        <Text style={styles.seatSettingText}>Take mic</Text>
-                    </TouchableOpacity>
                 </View>
             </View>
             
@@ -454,10 +442,35 @@ const Screen3 = () => {
                 <Text style={styles.countText}>Game 01: 35</Text>
               </LinearGradient>
             </View>
+            
+            <View style={styles.seatSettingContainer}>
+                <View style={styles.seatSettingBox}>
+                    <TouchableOpacity style={styles.seatSettingGroup}>
+                        <Image style={styles.seatSettingImage} source={require('./../source/images/chair.png')} />
+                        <Text style={styles.seatSettingText}>Move Seat</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.seatSettingGroup}>
+                        <Image style={styles.seatSettingImage} source={require('./../source/images/microphone-slash.png')} />
+                        <Text style={styles.seatSettingText}>Take mic</Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
+            
+            <View style={styles.resultContainer}>
+                <View style={styles.resultBox}>
+                    <View style={styles.resultGroup}>
+                        <Image style={styles.resultImage} source={require('./../source/images/win.png')} />
+                    </View>
+                    <View style={styles.resultGroup}>
+                        <Image style={styles.resultImage} source={require('./../source/images/lose.png')} />
+                    </View>
+                </View>
+            </View>
           </View>
 
           <View style={styles.countdownContainer}>
-              
+            
+                
             <View style={[styles.countdownPointsRow, {position: 'relative', overflow: 'hidden'}]}>
                 <View style={[styles.countdownPointsCol, styles.countdownPointsLeftCol]}>
                     <Image style={styles.countdownPointsImage} source={require('./../source/images/yellow-white-chair.png')} />
@@ -994,7 +1007,40 @@ const styles = StyleSheet.create({
     lineHeight: 10.37,
     fontWeight: 400,
     color: '#ffffff'
-  }
+  },
+
+
+  resultContainer: {
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  resultBox: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 15,
+    backgroundColor: '#010a1bde',
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around',
+  },
+  resultGroup: {
+    alignItems: 'center'
+  },
+  resultImage: {
+    width: 154.41,
+    height: 148.72,
+  },
+  resultText: {
+    fontSize: 12,
+    lineHeight: 10.37,
+    fontWeight: 400,
+    color: '#ffffff'
+  },
 });
 
-export default Screen3;
+export default Screen4;
